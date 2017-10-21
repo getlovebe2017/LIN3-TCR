@@ -15,7 +15,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" Chivas Bot
+helpMessage = kie Bot
 [Id︎]
 [Mid]
 [Me︎]
@@ -92,7 +92,7 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Chivas ",
+    "cName":"kie bot",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -393,7 +393,7 @@ def bot(op):
         if op.type == 24:
             if wait["leaveRoom"] == True:
                 cl.leaveRoom(op.param1)
-        if op.type == 26:
+        if op.type == 25:c
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
